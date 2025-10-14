@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Rameen's Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                Rameen's Portfolio
+            </div>
+            <div>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Skills</a></li>
+                    <li><a href="/">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="home">
+        <main>
+            <div class="hi">
+                Hi, it's me <span class="blue">Rameen Zia </span>
+                <br> <span id="element"></span>
+                <div class="button">
+                    <button class="btn">Download CV</button>
+                </div>
+                <div class="homesci">
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                    <a href="#"><i class='bx bxl-github'></i></a>
+                    <a href="#"><i class='bx bxl-linkedin'></i></a>
+                </div>
+            </div>
+            <div class="right">
+                <img src="fe.png" alt="profile" height="450" width="450">
+            </div>
+        </main>
+    </section>
+
+    <hr class="break">
+
+    <section class="second-section">
+        <div class="left">
+            <img src="fe.png" alt="profile">
+        </div>
+        <div class="right">
+            <div class="head">About <span class="blue">me</span></div>
+            <div class="div-cont">
+                 I am a Computer Science undergraduate student in my 5th semester with a strong interest in web development and problem-solving.  
+  Passionate about building clean, responsive, and user-friendly websites, I enjoy turning ideas into reality using modern web technologies.  
+  I’m always eager to learn, improve my skills, and take on challenges that help me grow as a developer.  
+</div>
+            </div>
+        </div>
+    </section>
+    <hr class="break">
+
+    <section class="third-section">
+        <div class="top">Skills</div>
+
+        <div class="skills-container">
+            <div class="skill">
+                <img src="html-5.png" alt="HTML">
+                <div>Proficient in writing semantic and structured HTML.  
+  I can design accessible layouts that form the backbone of user-friendly websites.</div>
+            </div>
+
+            <div class="skill">
+                <img src="css3-logo-png_seeklogo-186678.png" alt="CSS">
+                <div>Skilled in CSS for styling and responsive design.  
+  I enjoy creating modern, clean, and visually appealing user interfaces with animations and effects.</div>
+            </div>
+
+            <div class="skill">
+                <img src="javascript-266x300.png" alt="JavaScript">
+                <div>Experienced in JavaScript for building interactive and dynamic web applications.  
+  I focus on making websites engaging, responsive, and functional through clean and efficient code.</div>
+            </div>
+        </div>
+    </section>
+
+<hr class="break">
+
+<section class="contact-section">
+  <div class="contact-container">
+    <h2 class="contact-title">Contact Me</h2>
+    <p class="contact-subtitle">Feel free to reach out for collaborations or just a friendly hello 👋</p>
+
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+
+    <!-- <div class="contact-socials">
+      <a href="#"><i class='bx bxl-facebook'></i></a>
+      <a href="#"><i class='bx bxl-twitter'></i></a>
+      <a href="#"><i class='bx bxl-github'></i></a>
+      <a href="#"><i class='bx bxl-linkedin'></i></a>
+    </div> -->
+  </div>
+</section>
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['<i> Web</i> Developer.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
